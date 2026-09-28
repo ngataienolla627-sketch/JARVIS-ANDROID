@@ -1,3 +1,5 @@
+```yaml
 name: JARVIS TEST
 on: {workflow_dispatch: null}
 jobs: {test: {runs-on: ubuntu-latest, steps: [{run: "echo JARVIS ONLINE"}]}}
+```
